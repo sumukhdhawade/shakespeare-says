@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
+
+:root {
+    --primary-color: #F9CE9C;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: var(--primary-color);
+    margin: 0px;
+    font-style: black;
+}
+
+
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.nav-brand {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 1rem;
+    line-height: 33px;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+
+}
+
+.navigation .nav-brand .nav-brand-highlight {
+    font-weight: 600;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/** headings **/
+
+.hero-heading {
+    max-width: 80%;
+    text-align: center;
+    font-size: 95.37px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-heading {
+    margin-top: 8rem;
+    margin-left: 2rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 39.06px;
+}
+
+.hero-heading .inverted-heading {
+    font-weight: 600;
+}
+
+/** input **/
+
+#txt-input{
+    width: 127vw;
+    height: 33vh;
+    left: 21vw;
+    top: 56vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+    display: block;
+    margin: auto;
+    padding: 1rem;
+
+    font-size: 20px;
+
+    border-radius: 15px;
+}
+
+#btn-translate {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+
+    width: 198px;
+    height: 56px;
+
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 100%;
+
+    border-radius: 15px;
+
+    background-color: #9CC3F9;
+}
+
+/** output **/
+
+#txt-output {
+
+    background-color: #ffffff;
+    color: black;
+
+    width: 635px;
+    height: 264px;
+    top: 901px;
+    margin-left: 41%;
+    margin-top: 4rem;
+    display: block;
+
+    width: 40%;
+
+    font-size: 20px;
+
+    border-radius: 15px;
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    height: 30px;
+    padding-top: 200px;
+}
+
+.footer .link {
+    color: black;
+    font-size: small;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: small;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/** links **/
+.link {
+    text-decoration: none;
+    font-weight: bold;
+}
