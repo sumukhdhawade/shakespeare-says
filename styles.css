@@ -114,7 +114,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    width: 13.75vw;
+    width: 15vw;                  
+    /* 13.75vw; */
     height: 6.82vh;
     font-size: 2.38vw;
     font-weight: 500;
