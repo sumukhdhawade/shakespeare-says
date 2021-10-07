@@ -28,7 +28,7 @@ body {
 /** navigation **/
 
 .nav-brand {
-    font-size: 25px;
+    font-size: 1.73vw;
     font-weight: 400;
     margin-left: 1rem;
     line-height: 33px;
@@ -38,7 +38,7 @@ body {
     background-color: var(--primary-color);
     color: black;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 500;
     line-height: 26px;
 
@@ -46,6 +46,7 @@ body {
 
 .navigation .nav-brand .nav-brand-highlight {
     font-weight: 600;
+    font-size: 2.5vw;
 }
 
 .navigation .nav-pills {
@@ -66,9 +67,9 @@ body {
 /** headings **/
 
 .hero-heading {
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
-    font-size: 95.37px;
+    font-size: 6.62vw;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
@@ -79,7 +80,7 @@ body {
     margin-left: 2rem;
     text-align: center;
     font-weight: 400;
-    font-size: 39.06px;
+    font-size: 3vw;
 }
 
 .hero-heading .inverted-heading {
@@ -88,22 +89,18 @@ body {
 
 /** input **/
 
-#txt-input{
+#txt-input {
+
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
     width: 127vw;
     height: 33vh;
-    left: 21vw;
-    top: 56vh;
-
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-
     display: block;
     margin: auto;
     padding: 1rem;
-
-    font-size: 20px;
-
     border-radius: 15px;
 }
 
@@ -113,21 +110,16 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 32px;
-
+    padding: 1.82vh 2.22px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-
-    width: 198px;
-    height: 56px;
-
-    font-size: 25px;
+    width: 13.75vw;
+    height: 6.82vh;
+    font-size: 2vw;
     font-weight: 500;
     line-height: 100%;
-
     border-radius: 15px;
-
     background-color: #9CC3F9;
 }
 
@@ -135,22 +127,25 @@ body {
 
 #txt-output {
 
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
     background-color: #ffffff;
     color: black;
-
-    width: 635px;
-    height: 264px;
-    top: 901px;
+    width: 40%;
+    height: 32vh;
     margin-left: 41%;
     margin-top: 4rem;
     display: block;
-
-    width: 40%;
-
-    font-size: 20px;
-
     border-radius: 15px;
 }
+
+/** Image **/
+
+#txt-output .image-fluid{
+    margin-left: -23.5rem;
+    margin-top: -3.5rem;
+}
+
 
 /** footer **/
 
