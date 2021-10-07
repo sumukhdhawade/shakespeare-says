@@ -28,7 +28,7 @@ body {
 /** navigation **/
 
 .nav-brand {
-    font-size: 1.73vw;
+    font-size: 20px;
     font-weight: 400;
     margin-left: 1rem;
     line-height: 33px;
@@ -38,15 +38,14 @@ body {
     background-color: var(--primary-color);
     color: black;
     padding: 1rem;
-    font-size: 2vw;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
-
+    line-height: 16px;
 }
 
 .navigation .nav-brand .nav-brand-highlight {
     font-weight: 600;
-    font-size: 2.5vw;
+    font-size: 20px;
 }
 
 .navigation .nav-pills {
@@ -69,18 +68,19 @@ body {
 .hero-heading {
     max-width: 70%;
     text-align: center;
-    font-size: 6.62vw;
+    font-size: 8vw;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
 }
 
 .sub-heading {
-    margin-top: 8rem;
-    margin-left: 2rem;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .hero-heading .inverted-heading {
@@ -97,10 +97,10 @@ body {
     height: 33vh;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 80%;
     display: block;
     margin: auto;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 15px;
 }
 
@@ -116,7 +116,7 @@ body {
     margin-top: 1rem;
     width: 13.75vw;
     height: 6.82vh;
-    font-size: 2vw;
+    font-size: 2.38vw;
     font-weight: 500;
     line-height: 100%;
     border-radius: 15px;
@@ -131,9 +131,9 @@ body {
     font-size: 30px;
     background-color: #ffffff;
     color: black;
-    width: 40%;
+    width: 50%;
     height: 32vh;
-    margin-left: 41%;
+    margin-left: 40.2%;
     margin-top: 4rem;
     display: block;
     border-radius: 15px;
@@ -142,8 +142,8 @@ body {
 /** Image **/
 
 #txt-output .image-fluid{
-    margin-left: -23.5rem;
-    margin-top: -3.5rem;
+    margin-left: -65%;
+    margin-top: -4rem;
 }
 
 
