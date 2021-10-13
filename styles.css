@@ -151,8 +151,8 @@ body{
     padding: 4rem 1rem;
     text-align: center;
     color: black;
-    height: 13px;
-    padding-top: 120px;
+    height: 30px;
+    padding-top: 140px;
 }
 
 .footer .link {
@@ -231,8 +231,8 @@ body{
 
 @media only screen and (max-width:600px){
     #txt-output .image-fluid{
-        margin-top: 2rem;
-        margin-left: -11rem;
+        margin-top: 2.5rem;
+        margin-left: -9rem;
         max-width: 70%;
     }
 }
