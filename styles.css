@@ -238,7 +238,7 @@ body{
     }
     #btn-translate {
         font-family: 'EB Garamond', serif;
-        font-style: black;
+        color: black;
         display: flex;
         justify-content: center;
         margin-left: auto;
