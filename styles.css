@@ -103,6 +103,7 @@ body{
 
 #btn-translate {
     font-family: 'EB Garamond', serif;
+    font-style: black;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -116,7 +117,6 @@ body{
     font-weight: 500;
     line-height: 100%;
     background-color: #9CC3F9;
-    font-style: black;
     cursor: pointer;
     transition: width 0.5s;
 }
@@ -235,5 +235,24 @@ body{
         margin-top: 1rem;
         margin-left: -9.5rem;
         max-width: 80%;
+    }
+    #btn-translate {
+        font-family: 'EB Garamond', serif;
+        font-style: black;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        width: 100px;   
+        border: 0;  
+        padding: 12px 10px;    
+        outline: none;    
+        border-radius: 6px;
+        font-weight: 500;
+        line-height: 100%;
+        background-color: #9CC3F9;
+        cursor: pointer;
+        transition: width 0.5s;
     }
 }
