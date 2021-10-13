@@ -25,7 +25,7 @@ body{
 /** navigation **/
 
 .nav-brand {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     text-align: left;
     margin-left: auto;
@@ -40,13 +40,14 @@ body{
 
 .navigation .nav-brand .nav-brand-highlight {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .navigation .nav-pills {
     list-style: none;
     display: inline-block;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .navigation .link {
@@ -89,7 +90,7 @@ body{
 #txt-input {
 
     font-family: 'EB Garamond', serif;
-    font-size: 18px;
+    font-size: 20px;
     width: 127vw;
     height: 33vh;
     margin-left: auto;
@@ -131,7 +132,7 @@ body{
 #txt-output {
 
     font-family: 'EB Garamond', serif;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #ffffff;
     color: black;
     width: 50%;
@@ -142,14 +143,6 @@ body{
     border-radius: 6px;
     outline: none;
 }
-
-/** Image **/
-
-/* #txt-output .image-fluid{
-    width: 50%;
-    margin-left: -18rem;
-    margin-top: -3rem;
-} */
 
 /** footer **/
 
@@ -164,12 +157,12 @@ body{
 
 .footer .link {
     color: black;
-    font-size: smaller;
+    font-size: large;
 }
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: smaller;
+    font-size: larger;
 }
 
 .footer ul {
