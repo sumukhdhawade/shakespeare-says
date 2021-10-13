@@ -113,7 +113,7 @@ body{
     margin-top: 1rem;
     width: 100px;   
     border: 0;  
-    padding: 12px 10px;    
+    padding: 12px 32px;    
     outline: none;    
     border-radius: 6px;
     font-weight: 500;
@@ -182,7 +182,7 @@ body{
 /* desktop 1*/
 
 @media only screen and (max-width:1680px){
-    #txt-output .image-fluid{
+    .image-fluid{
         margin-top: -4rem;
         margin-left: -26rem;
         max-width: 80%;
@@ -192,7 +192,7 @@ body{
 /* desktop 2*/
 
 @media only screen and (max-width:1920px){
-    #txt-output .image-fluid{
+    .image-fluid{
         margin-top: -4rem;
         margin-left: -26rem;
         max-width: 80%;
@@ -202,7 +202,7 @@ body{
 /* desktop 2*/
 
 @media only screen and (max-width:2560px){
-    #txt-output .image-fluid{
+    .image-fluid{
         margin-top: -4rem;
         margin-left: -26rem;
         max-width: 80%;
@@ -212,7 +212,7 @@ body{
 /* laptop */
 
 @media only screen and (max-width:1440px){
-    #txt-output .image-fluid{
+    .image-fluid{
         margin-top: -4rem;
         margin-left: -24rem;
         max-width: 50%;
@@ -222,11 +222,12 @@ body{
 /* tablet */
 
 @media only screen and (max-width:1024px){
-    #txt-output .image-fluid{
-        margin-top: -3rem;
-        margin-left: -18rem;
+    .image-fluid{
+        margin-top: -4rem;
+        margin-left: -20rem;
         max-width: 50%;
     }
+
     #btn-translate {
         font-family: 'EB Garamond', serif;
         color: black;
@@ -237,7 +238,7 @@ body{
         margin-top: 1rem;
         width: 100px;   
         border: 0;  
-        padding: 16px 16px;    
+        padding: 12px 32px;    
         outline: none;    
         border-radius: 6px;
         font-weight: 500;
@@ -253,7 +254,7 @@ body{
 /* mobile */
 
 @media only screen and (max-width:600px){
-    #txt-output .image-fluid{
+    .image-fluid{
         margin-top: 1rem;
         margin-left: -9.5rem;
         max-width: 80%;
