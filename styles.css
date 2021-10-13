@@ -233,7 +233,7 @@ body{
 @media only screen and (max-width:600px){
     #txt-output .image-fluid{
         margin-top: 1rem;
-        margin-left: -8rem;
+        margin-left: -9rem;
         max-width: 80%;
     }
 }
