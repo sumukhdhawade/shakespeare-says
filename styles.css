@@ -116,6 +116,7 @@ body{
     font-weight: 500;
     line-height: 100%;
     background-color: #9CC3F9;
+    font-style: black;
     cursor: pointer;
     transition: width 0.5s;
 }
@@ -220,7 +221,7 @@ body{
 
 @media only screen and (max-width:1024px){
     #txt-output .image-fluid{
-        margin-top: -1.5rem;
+        margin-top: -3rem;
         margin-left: -18rem;
         max-width: 50%;
     }
@@ -231,8 +232,8 @@ body{
 
 @media only screen and (max-width:600px){
     #txt-output .image-fluid{
-        margin-top: 2.5rem;
+        margin-top: -0.5rem;
         margin-left: -9rem;
-        max-width: 70%;
+        max-width: 100%;
     }
 }
