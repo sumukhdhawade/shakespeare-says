@@ -134,7 +134,7 @@ body{
     font-size: 20px;
     color: black;
     width: 100%;
-    margin: 1rem;
+    margin: 3rem;
     display: flex;
   }
 
@@ -151,8 +151,8 @@ body{
 
   .image-svg {
     flex-grow: 1;
-    max-width: 30vw;
-    max-height: 200px;
+    max-width: 35vw;
+    max-height: 250px;
   }
 
 /** footer **/
