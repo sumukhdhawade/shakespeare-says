@@ -1,6 +1,6 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
-var outputDiv = document.querySelector("#txt-output");
+var outputDiv = document.querySelector("#output-box");
 
 
 var serverURL = "https://api.funtranslations.com/translate/shakespeare.json"

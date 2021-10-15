@@ -25,11 +25,9 @@ body{
 /** navigation **/
 
 .nav-brand {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     text-align: left;
-    margin-left: 1rem;
-    margin-top: 1rem;
 }
 
 .navigation {
@@ -41,13 +39,12 @@ body{
 
 .navigation .nav-brand .nav-brand-highlight {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .navigation .nav-pills {
     list-style: none;
     display: inline-block;
-    margin-right: 1rem;
     font-size: 20px;
     
 }
@@ -133,19 +130,30 @@ body{
 /** output **/
 
 #txt-output {
-
-    font-family: 'EB Garamond', serif;
+    font-family: "EB Garamond", serif;
     font-size: 20px;
+    color: black;
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+  }
+
+  #output-box {
+    flex-grow: 4;
+    padding: 1rem;
+    display: block;
     background-color: #ffffff;
     color: black;
-    width: 50%;
-    height: 32vh;
-    margin-left: 40.2%;
-    margin-top: 2rem;
-    display: block;
-    border-radius: 6px;
-    outline: none;
-}
+    margin-right: 6rem;
+  }
+
+  /* image */
+
+  .image-svg {
+    flex-grow: 1;
+    max-width: 30vw;
+    max-height: 200px;
+  }
 
 /** footer **/
 
@@ -160,12 +168,12 @@ body{
 
 .footer .link {
     color: black;
-    font-size: large;
+    font-size: smaller;
 }
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: larger;
+    font-size:small;
 }
 
 .footer ul {
@@ -179,121 +187,15 @@ body{
     cursor: pointer;
 }
 
-/* desktop 1*/
+/* for mobile */
 
-@media only screen and (max-width:1680px){
-    .image-fluid{
-        margin-top: -4rem;
-        margin-left: -26rem;
-        max-width: 80%;
-    }
-}
-
-/* desktop 2*/
-
-@media only screen and (max-width:1920px){
-    .image-fluid{
-        margin-top: -4rem;
-        margin-left: -26rem;
-        max-width: 80%;
-    }
-}
-
-/* desktop 2*/
-
-@media only screen and (max-width:2560px){
-    .image-fluid{
-        margin-top: -4rem;
-        margin-left: -26rem;
-        max-width: 80%;
-    }
-}
-
-/* laptop */
-
-@media only screen and (max-width:1440px){
-    .image-fluid{
-        margin-top: -4rem;
-        margin-left: -24rem;
-        max-width: 50%;
-    }
-}
-
-/* tablet */
-
-@media only screen and (max-width:1024px){
-    .image-fluid{
-        margin-top: -4rem;
-        margin-left: -20rem;
-        max-width: 50%;
-    }
-
-    #btn-translate {
-        font-family: 'EB Garamond', serif;
+@media screen and (max-width: 480px) {
+    #output-box {
+        flex-grow: 4;
+        padding: 1rem;
+        display: block;
+        background-color: #ffffff;
         color: black;
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1rem;
-        width: 100px;   
-        border: 0;  
-        padding: 12px 32px;    
-        outline: none;    
-        border-radius: 6px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 100%;
-        background-color: #9CC3F9;
-        cursor: pointer;
-        transition: width 0.5s;
-    }
-}
-
-
-/* mobile */
-
-@media only screen and (max-width:600px){
-    .image-fluid{
-        margin-top: 1rem;
-        margin-left: -9.5rem;
-        max-width: 80%;
-    }
-    #btn-translate {
-        font-family: 'EB Garamond', serif;
-        color: black;
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1rem;
-        width: 100px;   
-        border: 0;  
-        padding: 12px 10px;    
-        outline: none;    
-        border-radius: 6px;
-        font-weight: 500;
-        line-height: 100%;
-        background-color: #9CC3F9;
-        cursor: pointer;
-        transition: width 0.5s;
-    }
-    .nav-brand {
-        font-size: 30px;
-        font-weight: 400;
-        text-align: left;
-        margin-left: auto;
-    }
-    .navigation .nav-brand .nav-brand-highlight {
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .navigation .nav-pills {
-        list-style: none;
-        display: inline-block;
-        margin-right: auto;
-        font-size: 20px;
-        
-    }
-    
+        margin-right: 1.8rem;
+      }
 }
