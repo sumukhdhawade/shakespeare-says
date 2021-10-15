@@ -74,7 +74,7 @@ body{
 }
 
 .sub-heading {
-    margin-top: -3rem;
+    margin-top: -4rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -203,4 +203,22 @@ body{
         color: black;
         margin-right: -1rem;
       }
+      .nav-brand {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .navigation .nav-pills {
+        list-style: none;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .sub-heading {
+        margin-top: -4rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 5vw;
+    }
 }
