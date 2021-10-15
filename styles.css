@@ -63,21 +63,21 @@ body{
 
 .hero-heading {
     text-align: center;
-    margin: auto;
+    margin-top: -1rem;
     padding: 3rem;
-    font-size: 9vw;
+    font-size: 8vw;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
 }
 
 .sub-heading {
-    margin-top: 3rem;
+    margin-top: -3rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .hero-heading .inverted-heading {
@@ -199,6 +199,6 @@ body{
         display: block;
         background-color: #ffffff;
         color: black;
-        margin-right: -2rem;
+        margin-right: -1rem;
       }
 }
