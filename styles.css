@@ -225,6 +225,7 @@ body{
         margin-right: auto;
     }
     .sub-heading {
+        margin-top: 0.5rem;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
