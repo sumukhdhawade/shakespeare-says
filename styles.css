@@ -207,11 +207,22 @@ body{
         font-size: 30px;
         font-weight: 400;
         text-align: left;
+        margin-left: 0rem;
     }
     .navigation .nav-pills {
         list-style: none;
         display: inline-block;
         font-size: 20px;
+        margin-right: 0rem;
+    }
+    .hero-heading {
+        text-align: center;
+        margin-top: -2rem;
+        padding: 3rem;
+        font-size: 9vw;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;
     }
     .sub-heading {
         margin-top: -4rem;
